@@ -76,13 +76,13 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: Recent Posts
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
       page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 10
+      count: 5
       # Filter on criteria
       filters:
         author: ''
@@ -98,7 +98,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: article-grid
+      view: card
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
